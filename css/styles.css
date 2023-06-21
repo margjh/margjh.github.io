@@ -246,8 +246,10 @@ sup {
 }
 
 a {
-  color: var(--bs-link-color);
-  text-decoration: underline;
+  color: #000;
+  
+  overflow: hidden;
+  word-break: break-all;
 }
 a:hover {
   color: var(--bs-link-hover-color);
@@ -488,13 +490,31 @@ progress {
 }
 
 .presentation_card{
-  font-size:20px;
+  
+  
   color:black;
   background:#fff;
-  box-shadow:0px 0px 20px rgba(55, 63, 87, 0.05);
-  padding : 10px 10px 10px 10px;
+  box-shadow:0px 0px 15px rgba(55, 63, 87, 0.05);
+  padding-top   : 10px;
+  padding-bottom: 5px;
+  padding-left  : 10px;
+  padding-right : 10px;
+  margin:10px;
   border-radius: 15px;
 
+}
+.presentation_card_type{
+  font-size:20px;
+  line-height:20px;
+  font-style:italic;
+  color:gray;
+}
+
+.presentation_card_title{
+  font-size:20px;
+  line-height:25px;
+  font-style:bold;
+  height: 80px;
 }
 
 .lead {
@@ -5320,8 +5340,9 @@ textarea.form-control-lg {
   position: relative;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 60%;
   color: var(--bs-modal-color);
+  left:20%;
   pointer-events: auto;
   background-color: var(--bs-modal-bg);
   background-clip: padding-box;
