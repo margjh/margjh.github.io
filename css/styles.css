@@ -48,7 +48,7 @@
   --bs-info-rgb: 13, 202, 240;
   --bs-warning-rgb: 255, 200, 0;
   --bs-danger-rgb: 220, 53, 69;
-  --bs-light-rgb: 248, 249, 250;
+  --bs-light-rgb: 244, 246, 250;
   --bs-dark-rgb: 33, 37, 41;
   --bs-white-rgb: 255, 255, 255;
   --bs-black-rgb: 0, 0, 0;
@@ -485,6 +485,16 @@ progress {
 
 [hidden] {
   display: none !important;
+}
+
+.presentation_card{
+  font-size:20px;
+  color:black;
+  background:#fff;
+  box-shadow:0px 0px 20px rgba(55, 63, 87, 0.05);
+  padding : 10px 10px 10px 10px;
+  border-radius: 15px;
+
 }
 
 .lead {
